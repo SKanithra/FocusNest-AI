@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FocusNest AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>🧠 FocusNest AI</h1>
+
+
+<div id="status">
+INACTIVE
+</div>
+
+
+<video id="video" autoplay playsinline></video>
+
+
+
+<!-- Dashboard -->
+
+<div class="dashboard">
+
+
+<div class="card">
+
+<h3>🧠 Average Focus</h3>
+
+<p id="avgFocus">
+0%
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>⏱ Study Time</h3>
+
+<p id="studyTime">
+00:00
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>⚡ Productivity</h3>
+
+<p id="productivity">
+Starting...
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🔥 Focus Streak</h3>
+
+<p id="streak">
+0 Sessions
+</p>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<h2 id="score">
+Focus Score : 0%
+</h2>
+
+
+<h2 id="timer">
+Session Time : 00:00
+</h2>
+
+
+
+
+
+<button id="startBtn">
+Start Monitoring
+</button>
+
+
+<button id="sessionBtn">
+Start Session
+</button>
+
+
+<button id="motivateBtn">
+Get Motivation
+</button>
+
+
+
+
+
+
+<div class="motivation">
+
+
+<h3 id="quote">
+Your motivation appears here
+</h3>
+
+
+<p id="suggestion">
+AI suggestion
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+
+
+<script src="quotes.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

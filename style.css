@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(135deg,#020617,#1e293b);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+}
+
+
+
+.container{
+
+    width:450px;
+
+    padding:30px;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(0,0,0,0.5);
+
+}
+
+
+
+
+h1{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+#status{
+
+    display:inline-block;
+
+    padding:8px 20px;
+
+    border-radius:20px;
+
+    background:#22c55e;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+video{
+
+    width:100%;
+
+    border-radius:20px;
+
+    border:3px solid rgba(255,255,255,0.2);
+
+}
+
+
+
+
+
+
+/* Dashboard */
+
+
+.dashboard{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:15px;
+
+    margin:20px 0;
+
+}
+
+
+
+
+.card{
+
+    background:rgba(255,255,255,0.12);
+
+    padding:15px;
+
+    border-radius:18px;
+
+    transition:0.3s;
+
+}
+
+
+
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    background:rgba(255,255,255,0.2);
+
+}
+
+
+
+
+.card h3{
+
+    font-size:14px;
+
+    color:#cbd5e1;
+
+}
+
+
+
+
+.card p{
+
+    margin-top:10px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:#38bdf8;
+
+}
+
+
+
+
+
+#score,#timer{
+
+    margin:12px;
+
+    padding:12px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,0.1);
+
+}
+
+
+
+
+
+
+button{
+
+
+    width:90%;
+
+    padding:14px;
+
+    margin:8px;
+
+    border:none;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    background:#38bdf8;
+
+    color:#082f49;
+
+    transition:0.3s;
+
+}
+
+
+
+
+button:hover{
+
+    transform:scale(1.05);
+
+    background:#7dd3fc;
+
+}
+
+
+
+
+
+
+.motivation{
+
+    margin-top:20px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.1);
+
+}
+
+
+
+#quote{
+
+    font-size:18px;
+
+}
+
+
+
+#suggestion{
+
+    margin-top:10px;
+
+    color:#cbd5e1;
+
+}
+
+
+
+
+
+
+@media(max-width:500px){
+
+
+.container{
+
+    width:95%;
+
+}
+
+
+.dashboard{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
