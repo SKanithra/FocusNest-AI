@@ -102,7 +102,7 @@ The dashboard displays:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/FocusNest-AI.git
+https://github.com/SKanithra/FocusNest-AI.git
 ```
 
 Open the project folder.
