@@ -109,11 +109,7 @@ Open the project folder.
 
 Run it using **Live Server** in Visual Studio Code or any local web server.
 
----
 
-## 📸 Screenshots
-
-(Add screenshots of your application here.)
 
 ---
 
